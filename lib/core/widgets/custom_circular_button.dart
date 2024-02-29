@@ -32,7 +32,7 @@ class CircularButton extends StatelessWidget {
           onTap: () {
             pressAction();
           },
-          child: Icon(icon),
+          child: Icon(icon,color: Colors.white,),
         ),
       ),
     );
